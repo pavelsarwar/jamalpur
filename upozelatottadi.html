@@ -1,0 +1,309 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>জামালপুর সদর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:15px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<h1>উপজেলা তথ্যচিত্র</h1>
+				</div>
+				
+
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>সাধারণ তথ্যাদি</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+<p>
+						
+<strong>জেলা 	:</strong>	জামালপুর <br>
+<strong>উপজেলা 	:</strong>	জামালপুর সদর <br>
+<strong>সীমানা 	:</strong>	উত্তরে- শেরপুর সদর ও মেলান্দহ উপজেলা
+দক্ষিণে- ধনবাড়ী ও সরিষাবাড়ী উপজেলা 
+পশ্চিম- মেলান্দহ উপজেলা
+পূর্বে- শেরপুর সদর ও মুক্তাগাছা উপজেলা। <br>
+<strong>আয়তন 	:</strong>	৪৮৯.৫৬ বর্গ কি:মি: (১,২০,৯৭৫ একর)<br>
+<strong>জনসংখ্যা  মোট) 	:</strong>	৬,১৫,০৭২ জন (প্রায়)<br>
+<strong>জনসংখ্যার ঘনত্ব 	:</strong>	১,৮৪৮ (প্রতি বর্গ কিলোমিটারে)<br>
+<strong>জনসংখ্যা বৃদ্ধির হার (বাৎসরিক) 	:</strong>	১.৪৬ % <br>
+<strong>পরিবার (খানা)	:</strong>	১,৩২,২৬৫ টি <br>
+<strong>গ্রাম 	:</strong>	৩৮৫ টি <br>
+<strong>মৌজা 	:</strong>	২৯৯ টি <br>
+<strong>ইউনিয়ন 	:</strong>	১৫ টি <br>
+<strong>পৌরসভা 	:</strong>	০১ টি 
+
+						
+						
+						
+						</p></div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>কৃষি ও খাদ্য</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+<p>
+<strong>জমির পরিমাণ 	:</strong>	১২০৯৭৫ একর<br>
+<strong>ফসলী জমি 	:</strong>	৮৪১৫৩ একর <br>
+<strong>এক ফসলী জমি 	:</strong>	১৫১৫০ একর <br>
+<strong>দুই ফসলী জমি 	:</strong>	৫৪৭৮৩ একর<br>
+<strong>তিন ফসলী  জমি 	:</strong>	১৪২২০ একর<br>
+<strong>গভীর নলকূপ 	:</strong>	৩১৫ টি <br>
+<strong>অ-গভীর নলকূপ	:</strong>	৫,২৫৫ টি<br>
+<strong>শক্তি চালিত পাম্প 	:</strong>	৪ টি <br>
+<strong>হর্টিকালচার	:</strong>	০২ টি<br>
+<strong>খাদ্য গুদাম	:</strong>	০২ টি<br>
+<strong>বাৎসরিক খাদ্য চাহিদা 	:</strong>	১,১৩,৭১৮ মে: টন <br>
+<strong>বাৎসরিক খাদ্য উৎপাদন 	:</strong>	২,১১,৪২৩ মে: টন <br>
+
+						</p></div>
+				</div>
+				
+				
+				
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>শিক্ষা সংক্রান্ত</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>
+						
+<strong>প্রাথমিক বিদ্যালয় 	:</strong>	২৪১ টি <br>
+<strong>জুনিয়র উচ্চ বিদ্যালয় 	:</strong>	১৪ টি <br>
+<strong>উচ্চ বিদ্যালয় 	:</strong>	৯৯ টি (বালিকা ১৫ টি)<br>
+<strong>দাখিল মাদ্রাসা 	:</strong>	৩১ টি <br>
+<strong>আলিম মাদ্রাসা 	:</strong>	০৩ টি <br>
+<strong>ফজিল মাদ্রাসা 	:</strong>	০৩ টি <br>
+<strong>কামিল মাদ্রাসা 	:</strong>	১০টি <br>
+<strong>উচ্চ মাধ্যমিক বিদ্যালয় 	:</strong>	০২ টি <br>
+<strong>কলেজ 	:</strong>	১৪ টি (২ টি সরকারী)<br>
+<strong>শিক্ষার হার 	:</strong>	৪৭%<br>
+						</p></div>
+				</div>
+				
+			<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>স্বাস্থ্য ও পরিবার </h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>
+<strong>উপজেলা স্বাস্থ্য কেন্দ্র	:</strong>	০১ টি<br>
+<strong>মা ও শিশু কল্যাণ কেন্দ্র	:</strong>	০১ টি<br>
+<strong>ইউনিয়ন স্বাস্থ্য উপকেন্দ্র 	:</strong>	১০ টি <br>
+<strong>ইউনিয়ন পরিবার কল্যাণ উপকেন্দ্র 	:</strong>	১৩ টি <br>
+<strong>কমিউনিটি ক্লিনিক 	:</strong>	৬৩ টি <br>
+<strong>কর্মরত ডাক্তারের সংখ্যা 	:</strong>	১৩ টি (মঞ্জুরীকৃত ২০ টি) <br>
+<strong>সক্ষম দম্পত্তির সংখ্যা 	:</strong>	১,৩৩,৮৪২ জন <br>
+<strong>জনসংখ্যা বৃদ্ধি	:</strong>	০.৭৭%<br>
+						</p></div>
+				</div>	
+				
+				
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>ভূমি ও রাজস্ব </h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>
+						
+<strong>উপজেলা ভূমি অফিস 	:</strong>	০১ টি <br>
+<strong>ইউনিয়ন/পৌর ভূমি অফিস 	:</strong>	১৬ টি <br>
+<strong>সাব-রেজিস্ট্রার অফিস	:</strong>	০১ টি<br>
+<strong>খাস জমি 	:</strong>	১১৮৬১.৫ একর <br>
+<strong>কৃষি 	:</strong>	৪৯২৬.৪৪ একর<br>
+<strong>অকৃষি 	:</strong>	৪৪৬.৪০ একর <br>
+<strong>হাট-বাজারের সংখ্যা	:</strong>	৩৬ টি <br>
+<strong>পৌরসভায় ন্যাস্ত 	:</strong>	০৪ টি <br>
+<strong>পরিষদে ন্যাস্ত 	:</strong>	৩২ টি <br>
+<strong>জলমহলের সংখ্যা 	:</strong>	৩৬ টি <br>
+<strong>২০ একরের উর্দ্বে	:</strong>	১২ টি <br>
+<strong>২০ একরের নিন্মে 	:</strong>	২৪ টি <br>
+<strong>বালু মহালের সংখ্যা 	:</strong>	০১ টি <br>
+<strong>মৌজার সংখ্যা 	:</strong>	২৯৯ টি <br>
+<strong>হোল্ডিং সংখ্যা 	:</strong>	১৮১০২৮ টি<br>
+<strong>অর্পিত সম্পত্তির পরিমাণ 	:</strong>	২৪২৭.৪১ একর <br>
+<strong>ক তফসিলভূক্ত 	:</strong>	১৬৩.২৪ একর <br>
+<strong>খ তফসিলভূক্ত 	:</strong>	২২৬৪.১৭ একর <br>
+<strong>পরিত্যাক্ত সম্পত্তির পরিমাণ 	:</strong>	২.৮৩ একর<br>
+<strong>ওয়াকফ সম্পত্তির পরিমাণ 	:</strong>	০.৭৬ একর 
+						</p></div>
+				</div>
+				
+				
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3> যোগাযোগ সংক্রান্ত </h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>
+						
+<strong>পাকা রাস্তা 	:</strong>	২৫০.০০ কি: মি: <br>
+<strong>অর্ধাপাকা রাস্তা 	:</strong>	১০৩.০০ কি: মি: <br>
+<strong>কাঁচা রাস্তা 	:</strong>	৭৭৩.০০ কি: মি: <br>
+<strong>রেল পথ	:</strong>	৪৬ কি: মি:<br>
+<strong>নদী পথ	:</strong>	৩৫ কি: মি:<br>
+<strong>ব্রীজ/কালভার্র্ট সংখ্যা	:</strong>	৭২৪ টি <br>
+<strong>নদীর সংখ্যা	:</strong>	০২ টি (ব্রহ্মপুত্র ও ঝিনাই)  <br>
+<strong>রেলওয়ে স্টেশন	:</strong>	০৬ টি<br>
+<strong>বাস স্টেশন	:</strong>	০৭ টি
+
+						</p></div>
+				</div>
+				
+				
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>মৎস্য সংক্রান্ত</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>
+ 
+<strong>পুকুরের সংখ্যা 	:</strong>	৬৮৮৪ টি <br>
+<strong>মৎস্য  বীজ উৎপাদন খামার সরকারী 	:</strong>	০১ টি <br>
+<strong>মৎস্য বীজ উৎপাদন খামার বে-সরকারী 	:</strong>	০৮ টি <br>
+<strong>মৎস্য চাহিদা (বাৎসরিক) 	:	</strong>১০১৬৯.০০ মে: টন <br>
+<strong>মৎস্য উৎপাদন (বাৎসরিক)	:</strong>	৫১০৬.০৬ মে: টন 						
+						</p></div>
+				</div>
+				
+			
+			
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>প্রাণি সম্পদ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>
+						 
+<strong>উপজেলা পশু চিকিৎসা কেন্দ্র	:</strong>	০১ টি <br>
+<strong>পশু ডাক্তারের সংখ্যা	:</strong>	০২ জন <br>
+<strong>কৃত্রিম প্রজনন কেন্দ্র 	:</strong>	০১ টি <br>
+<strong>পয়েন্টের সংখ্যা 	:</strong>	১৩ টি <br>
+<strong>গবাদি পশুর খামার 	:</strong>	২৩ টি <br>
+<strong>ব্রয়লার মুরগীর খামার 	:</strong>	৯৮ টি <br>
+<strong>লেয়ার মুরগীর খামার 	:</strong>	৭০ টি 
+						</p></div>
+				</div>
+				
+
+		
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>সমাজ সেবা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>
+<strong>পল্লী সমাজসেবা ক্ষুদ্র ঋণ গ্রহীতার সংখ্যা 	:</strong>	৩৫৭০ জন <br>
+<strong>প্রতিবন্ধী ঋণ গ্রহীতার সংখ্যা 	:</strong>	২৩৭ জন <br>
+<strong>মুক্তিযোদ্ধার সম্মানী ভাতার সংখ্যা 	:</strong>	৫৪৩ জন <br>
+<strong>বয়স্ক ভাতার সংখ্যা 	:</strong>	১০,২৭২ জন <br>
+<strong>বিধবা ভাতার সংখ্যা 	:</strong>	২,৭১৮ জন <br>
+<strong>প্রতিবন্ধী ভাতার সংখ্যা 	:</strong>	১,১৭৪ জন <br>
+<strong>প্রতিবন্ধী শিক্ষা উপবৃত্তির সংখা 	:</strong>	৬৫ জন <br>
+<strong>বেসরকারী এতিমখানা সংখ্যা 	:</strong>	১০ টি <br>
+<strong>সেবা সেবী সংগঠনের সংখ্যা 	:</strong>	১৪৩ টি 
+						
+						</p></div>
+				</div>
+				
+
+		
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>সমবায় সমিতি </h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>
+
+<strong>কেন্দ্রীয় সমবায় সমিতি লি: 	:</strong>	৭ টি <br>
+<strong>মুক্তিযোদ্ধা সমবায় সমিতি লি: 	:</strong>	২টি <br>
+<strong>ইউনিয়ন বহুমুখী সমবায় সমিতি লি: 	:</strong>	১৩ টি <br>
+<strong>বহুমুখী সমবায় সমিতি লি: 	:</strong>	৭৬ টি <br>
+<strong>মৎস্যজীবি সমবায় সমিতি লি: 	:</strong>	১৩ টি <br>
+<strong>যুব সমবায় সমিতি লি: 	:</strong>	১ টি <br>
+<strong>আগ্রয়ন/আবাসন বহুমুখী সমবায় সমিতি 	:</strong>	৭ টি <br>
+<strong>কৃষক সমবায় সমিতি লি: 	:</strong>	৩৫৩ টি <br>
+<strong>মহিলা বিত্তহীন সমবায় সমিতি লি: 	:</strong>	৯৭ টি <br>
+<strong>ক্ষুদ্র ব্যবসায়ী সমবায় সমিতি লি: 	:</strong>	১০৩ টি 						
+						</p></div>
+				</div>
+				
+
+		
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>নৃতাত্তিক জনগোষ্ঠি </h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>
+<strong>ক্ষুদ্র নৃগোষ্ঠর নাম :</strong> গারো, কোচ, বর্মন, মান্দাই, বিশ্বাস <br>
+<strong>ক্ষুদ্র নৃগোষ্ঠির অবস্থান :</strong> করীফপুর, শাহবাজপুর, শ্রীপুর, কেন্দুয়া ও ঘোড়াধাপ<br>
+<strong>ক্ষুদ্র নৃগোষ্ঠির খানার সংখ্যা :</strong> ১৩৪২ টি <br>
+<strong>ক্ষুদ্র নৃগোষ্ঠির সংখ্যা : </strong>৫৩৮৭ জন <br>
+<strong>পেশা :</strong> কৃষি কাজ, বেতের সরঞ্জাম তৈরী, দিনমজুর
+					
+						</p></div>
+				</div>
+								
+
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

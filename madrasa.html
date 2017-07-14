@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>জামালপুর সদর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<h1>মাদরাসা (জুনিয়র/সিনিয়র)</h1>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a" style="text-align:center;">
+						<h3> প্রতিষ্ঠানের নাম, প্রধানের নাম ও মোবাইল নং</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style="text-align:center;">
+<strong>	বেলটিয়া কামিল মাদরাসা</strong><br>	মোঃ ফরহাদ হোসেন<br>মোবাইলঃ 	০১৭১৬-৩৫৫৭১০<br><br>
+<strong>	রানাগাছা দাখিল মাদরাসা</strong><br>	মোঃ সাইদুর রহমান	<br>মোবাইলঃ 	০১৮১৩-৬২১১১০<br><br>
+<strong>	ইদিলপুর দাখিল মাদরাসা	</strong><br>মোঃ নুরম্নল আমিন	<br>মোবাইলঃ 	০১৭১৮-১১৯১৮৯<br><br>
+<strong>	হাফেজা নগর বালিকা দাখিল মাদরাসা</strong><br>	সেলিনা আক্তার<br>মোবাইলঃ 		০১৭২৫-১৩৪৪২৮<br><br>
+<strong>	বাদেচান্দি কে,আই দাখিল মাদরাসা	</strong><br>মোঃ মোজাফ্ফর হোসেন	<br>মোবাইলঃ 	০১৭২৫-১৩৪৪২৮<br><br>
+<strong>	দড়িপাড়া কে,এম দাখিল মাদরাসা	</strong><br>আবু বকর সিদ্দিক	<br>মোবাইলঃ 	০১৭৩৬-০৭৬৯৮০<br><br>
+<strong>	কচুয়ারপাড় এস.ইউ দাখিল মাদরাসা	</strong><br>মোঃ খোরশেদ আলম<br>মোবাইলঃ 		০১৭২৮-১৭৫৬৬১<br><br>
+<strong>	বন্দচিথলিয়া দাখিল মাদরাসা</strong><br>	মোঃ আব্দুস ছাত্তার	<br>মোবাইলঃ 	০১৭১২-৩৬৪৬২২<br><br>
+<strong>	চরপাড়া এস.এম দাখিল মাদরাসা</strong><br>মোঃ গোলাম মোসত্মফা<br>মোবাইলঃ 		০১৭১২-৪৮৩৪৭২<br><br>
+<strong>	কৈডোলা হক দাখিল মাদরাসা</strong><br>	মোঃ হাবিবুর রহমান	<br>মোবাইলঃ 	০১৭৩৩-২৯৬২১৭<br><br>
+<strong>	নরম্নন্দি ফয়েজিয়া বহুমূখী সিনিয়র মাদরাসা</strong><br>	মোঃ হাফিজুর রহমান	<br>মোবাইলঃ 	০১৭১৭-৭৮৮৮৩৫<br><br>
+<strong>	শেখপাড়া খোকা মান্নান দাখিল মাদরাসা</strong><br>	মোঃ হাবিবুর রহমান	<br>মোবাইলঃ 	০১৭১৯-০৭৩৫০৯<br><br>
+<strong>	গোপীনাথপুর কে,এম দাখিল মাদরাসা	</strong><br>মাওঃ মোঃ আব্দুস ছালাম খান<br>মোবাইলঃ 		০১৭২৪-৪৮৯৬২৬<br><br>
+<strong>	মহেশপুর ইসলামিয়া দাখিল মাদরাসা	</strong><br>মোঃ নজিবুলস্নাহ	<br>মোবাইলঃ 	০১৯২৪-৫২৪২০৪<br><br>
+<strong>	বানারেরপাড় ফাজিল মাদরাসা	</strong><br>মোঃ হাসমত উলস্নাহ	<br>মোবাইলঃ 	০১৭১৬-৫৯৬৭২৪<br><br>
+<strong>	কাষ্টসিংগা ইসলামিয়া দাখিল মাদরাসা</strong><br>	মোঃ দেলোয়ার হোসেন	<br>মোবাইলঃ 	০১৭৫৪-৮৭৪২৪২<br><br>
+<strong>	ঝাওলা ইসলামিয়া দাখিল মাদরাসা	</strong><br>মোঃ আনোয়ার হোসেন	<br>মোবাইলঃ 	০১৭১৬-৭২১৩০৯<br><br>
+<strong>	কেশবপুর ইসলামিয়া দাখিল মাদরাসা</strong><br>	মোঃ কোরবান আলী	<br>মোবাইলঃ 	০১৭১০-১১১৮৭<br><br>
+<strong>	আউলাই শাহবাজপুর দাখিল মাদরাসা</strong><br>	মোঃ নাজিম উদ্দিন	<br>মোবাইলঃ 	০১৭৫৪-৭৪২৪২<br><br>
+<strong>	ডৌয়াতলা ইসলামিয়া দাখিল মাদরাসা</strong><br>	মোঃ আব্দুল হান্নান	<br>মোবাইলঃ 	০১৭১৬-৭৩১৪২০<br><br>
+<strong>	হাজীপুর আলহাজ্ব জয়নুল আবেদীন দাঃ মাঃ	</strong><br>মোঃ রিয়াজুল ইসলাম	<br>মোবাইলঃ 	০১৭১২-৭৭৯৬৭৭<br><br>
+<strong>	রশিদপুর এন.ইউ ফাযিল মাদরাসা	</strong><br>মোঃ হাবিবুর রহমান	<br>মোবাইলঃ 	০১৭১২-২৮৪৭১৭<br><br>
+<strong>	ছালাম আবাদ শরীফ আহমদীয়া সিনিয়র মাদরাসা</strong><br>	এ কে এম এ খালেক<br>মোবাইলঃ 		০১৭৪০-৮১১৩৯৯<br><br>
+<strong>	কামালখানহাট ফাযিল মাদরাসা	</strong><br>আঃ ফঃ মঃ নুরম্নল ইসলাম	<br>মোবাইলঃ 	০১৯১৪-৪২৭৫২২<br><br>
+<strong>	জামালপুর সিনিয়র মাদরাসা	</strong><br>মোঃ গিয়াস উদ্দিন	<br>মোবাইলঃ 	০১৭২০-৫৭৩৯৯৯<br><br>
+<strong>	পাকুল্যা ইসলামিয়া দাখিল মাদরাসা</strong><br>	মোঃ ফজলুর রহমান	<br>মোবাইলঃ 	০১৭১৪-৮৯৮৮৯১<br><br>
+<strong>	দমদমা বালিকা দাখিল মাদরাসা	</strong><br>মোঃ রিয়াজ উদ্দিন	<br>মোবাইলঃ 	০১৭১৩-৫৬৪৫৯৪<br><br>
+<strong>	শামছুন্নাহার মোহাম্মদীয়া মহিলা দাখিল মাদরাসা	</strong><br>মোঃ লুৎফর রহমান	<br>মোবাইলঃ 	০১৭২০-৯২৬২৭৮<br><br>
+<strong>	হরিণাকান্দা মাদারপুর দাখিল মাদরাসা	</strong><br>মোঃ আজিজুর রহমান	<br>মোবাইলঃ 	০১৭২৮-০১৩২১৫<br><br>
+<strong>	মলিস্নক মন্ডল দাখিল মাদরাসা</strong><br>	মোঃ ফরহাদ হোসেন	<br>মোবাইলঃ 	০১৭৩৪-৫২৫২০<br><br>
+<strong>	চরযথার্থপুর দাখিল মাদরাসা	</strong><br>মোঃ ফজলুর রহমান	<br>মোবাইলঃ 	০১৫৫৮-৪৮৭১৩০<br><br>
+<strong>	জামাতলা মির্জাপুর দাখিল মাদরাসা</strong><br>	মোঃ মশিউর রহমান<br>মোবাইলঃ 		০১৭১১-৪৭২০৩৬<br><br>
+<strong>	শরীফপুর দাখিল মাদরাসা</strong><br>	মোঃ ওমর ফারম্নক	<br>মোবাইলঃ 	০১৭১১-১১৮৮৫৬<br><br>
+<strong>	রশিদপুর ইসলামিয়া দাখিল মাদরাসা	</strong><br>মোঃ শাহজাহান সিরাজ<br>মোবাইলঃ 		০১৭২০-৩৯১৪২০<br><br>
+<strong>	কুটামনি আলহাজ্ব আজিম উদ্দিন দাখিল মাদরাসা</strong><br>	মোঃ আব্দুল ওয়াদুদ<br>মোবাইলঃ 		০১৭১৪-৮৯৮৮৯৫<br><br>
+<strong>	কাশারম্নপাড়া ইসলামিয়া দাখিল মাদরাসা</strong><br>	মোঃ ইউছুফ আলী<br>মোবাইলঃ 		০১৭১৮-৯০৩১৯১<br><br>
+<strong>	গোবিন্দপুর আফছারম্নল উলুম দাখিল মাদরাসা</strong><br>	মোঃ আবুল খায়ের	<br>মোবাইলঃ 	০১৯২৫-৯০১৫৬৭
+		
+						
+						
+						</p>
+						
+				 	</div>
+				</div>
+				
+		
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

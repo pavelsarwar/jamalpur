@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+			<title>জামালপুর সদর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<h1>মিডিয়া/সংবাদ কর্মী</h1>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					
+				  	<div class="ui-body ui-body-a">
+						
+
+						<p style="text-align:center;">
+
+
+
+<strong>	হাফিজ রহমান সাদা</strong><br>	সভাপতি, জামালপুর প্রেসক্লাব<br>মোবাইলঃ 	০১৭১২-৭৫৯৫৩৪<br><br>
+<strong>	লুৎফর রহমান</strong><br>	সম্পাদক, জামালপুর প্রেসক্লাব<br>মোবাইলঃ 	০১৭১১-৬৬২১১৪<br><br>
+<strong>	সভাপতি, জেলা প্রেসক্লাব</strong><br>মোবাইলঃ 	০১৭১১-৬৭২৭৫৭<br><br>
+<strong>	সম্পাদক, জেলা প্রেসক্লাব</strong><br>মোবাইলঃ 	০১৭১২-১২৮০৭৭<br><br>
+<strong>	জনাব এম এ জলিল</strong><br>	আজকের জামালপুর	<br>মোবাইলঃ ০১৭১১-৬৭২৭৬১<br><br>
+<strong>	জনাব মো: নুরুল হক জঙ্গী</strong><br>	পল্লীকন্ঠ প্রতিদিন<br>মোবাইলঃ 	০১৭১৮-০৭৫১০৮<br><br>
+<strong>	জনাব মো: রেজাউল করিম রেজনু</strong><br>	আলোচিত জামালপুর	<br>মোবাইলঃ ০১৮১৮-২৬০৭৯৪<br><br>
+<strong>	জনাব শফিক জামান	</strong><br>বাংলাদেশ প্রতিদিন	<br>মোবাইলঃ ০১৭১১-৬৬২৮৭৮<br><br>
+<strong>	জনাব মোস্তফা বাবলু	</strong><br>কালের কন্ঠ	<br>মোবাইলঃ ০১৭১১-৬৩১৩৯৯
+
+
+
+
+	
+	
+
+						</p>
+						
+				 	</div>
+				</div>
+				
+		
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+			<title>জামালপুর সদর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<h1>এনজিও</h1>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					
+				  	<div class="ui-body ui-body-a">
+						
+
+						<p style="text-align:center;">
+<strong>সমাজ উন্নয়ন ও প্রশিক্ষণ কেন্দ্র</strong><br>	মো: এনামুল হক, প্রধান নির্বাহী	<br>মোবাইলঃ  ০১৭১২৭১২৯৮৮<br><br>
+<strong>ব্র্যাক বাংলাদেশ	</strong><br>	মো: শফিকুল ইসলাম, জেলা প্রতিনিধি	<br>মোবাইলঃ  ০১৭৩০৩২৯৫৬৯<br><br>
+<strong>উন্নয়ন সংঘ	</strong><br>	জাহাঙ্গির সেলিম,পরিচালক	<br>মোবাইলঃ  ০১৭১২১৫৮৭৩৭<br><br>
+<strong>প্রগেস</strong><br>		মো: ফিরোজ খান, প্রধান সমন্বয়ক	<br>মোবাইলঃ  ০১৭১১৩৪৬৮৩৫<br><br>
+<strong>তরঙ্গ মহিলা কল্যান সংস্থা </strong><br>		শামিমা খান, প্রধান নির্বাহী<br>মোবাইলঃ  	০১৭৫৮২০৮২১০<br><br>
+<strong>উত্তরন, দেওয়ানপাড়া</strong><br>		মিতা রহমান, জেলা প্রতিনিধি	<br>মোবাইলঃ  ০১৭৮৩২০২২৭৩<br><br>
+<strong>মেরীষ্টোপ ক্লিনিক	</strong><br>	মো:সিদ্দিকুর রহমান, কো-অর্ডিনেটর	<br>মোবাইলঃ  ০১৭৬৩৫৮১৯৪৪<br><br>
+<strong>সূর্য হাসি সমাজ কল্যান সংস্থা	</strong><br>	রেখা বেগম, নির্বাহী  পরিচালক	<br>মোবাইলঃ  ০১৭৪৫২২৩৫৬৭<br><br>
+<strong>আইজল	</strong><br>	সাযযাদ আনসারী, নির্বাহী  পরিচালক	<br>মোবাইলঃ  ০১৮১৮২৬০৭৯৪<br><br>
+<strong>অপরাজেয় বাংলাদেশ</strong><br>		আশরাফুল ইসলাম, ম্যানেজার<br>মোবাইলঃ  	০১৭২২০৮৮৯৮২<br><br>
+<strong>টিআইবি</strong><br>		এস এম আতিকুর রহমান, জেলা প্রতিনিধি	<br>মোবাইলঃ  ০১৭১৪০৯২৮৪২<br><br>
+<strong>ঢাকা আহসানিয়া মিশন</strong><br>		আবু হেনা, জেলা প্রতিনিধি<br>মোবাইলঃ  	০১৭১৯০৩৫৯১০<br><br>
+<strong>শক্তি ফাউন্ডেশন</strong><br>		মো: মঞ্জুরুল আলম	<br>মোবাইলঃ  ০১৮৪৭০৯৯০৮৩<br><br>
+<strong>আশা	</strong><br>	মো: আফজাল হোসেন, জেলা ম্যানেজার,<br>মোবাইলঃ  	০১৭১৪০৮৮৭১৫<br><br>
+<strong>ইসলামিক রিলিফ	</strong><br>	জাফর আলম, জেলা প্রতিনিধি	<br>মোবাইলঃ  ০১৭৭৭৭৪১৯৭২<br><br>
+<strong>হেলভেটাস সুইস ইনকর্পোরেশন</strong><br>		মো:মঞ্জুরুল হক, এলএসপিকোচ<br>মোবাইলঃ   ০১৭১৭০১৮০৬৮<br><br>
+<strong>বন্ধু সোস্যাল অয়েলফেয়ার সোসাইটি </strong><br>		মো: জেলকদ আলী	<br>মোবাইলঃ  ০১৯১৩৬৬৮৮১৬<br><br>
+<strong>দক্ষিণ কাচারীপাড়া, জামালপুর।	</strong><br>	আঞ্চলিক  পরিচালক, এসএসএস	<br>মোবাইলঃ  ০১৭৩০০১১২৯৮<br><br>
+<strong>প্রত্যাশা সমাজ উন্নয়ন সংস্থা</strong><br>		মো: নেহাজ উদ্দিন, নির্বাহী  পরিচালক<br>মোবাইলঃ  	০১৭১২৬৪৯৫৫১<br><br>
+<strong>সমাজসেবা যুব উন্নয়ন সংস্থা</strong><br>		আমিনুল ইসলাম	<br>মোবাইলঃ  ০১৭১৬১৫৬৮১৯<br><br>
+<strong>পল্লী মা মহিলা উন্নয়ন সংস্থা</strong>	<br>মোবাইলঃ  ০১৯২১৩৪০৯৬০<br><br>
+<strong>সোস্যাল ডেভেলপমেন্ট অর্গানাইজেশন (এসডিও)</strong><br>		মো: রফিকুল ইসলাম সরকার, নির্বাহী পরিচালক<br>মোবাইলঃ  	০১৭১৬৪১৯২১৯<br><br>
+<strong>পারি ডেভেলপমেন্ট ট্রাস্ট।</strong><br>		সুকুমল জি. এমিন	<br>মোবাইলঃ  ০১৭১১৭৩০৯৭০<br><br>
+<strong>স্বাবলম্বি উন্নয়ন সমিতি।</strong><br>		মো:মাসুদ রানা	<br>মোবাইলঃ  ০১৭৪৮৭০১৮২১<br><br>
+<strong>দিশা বহুমুখী কল্যান সমিতি।	</strong><br>	মল্লিকা রানী দাস	<br>মোবাইলঃ  ০১৭১৫৩০০৯৭৭<br><br>
+<strong>চান্দাপাড়া সমাজ উন্নয়ন সংস্থা</strong><br>		মো:মঞ্জুরুল হক,নির্বাহী  পরিচালক	<br>মোবাইলঃ  ০১৭১৬৯১৭৪৬১<br><br>
+<strong>সুইড বাংলাদেশ</strong><br>		লতিফা আক্তার, শিক্ষিকা	<br>মোবাইলঃ  ০১৭১৫৬২৬২৮৪<br><br>
+<strong>পদক্ষেপ মানবিক উন্নয়ন কেন্দ্র	</strong><br>	মনিরুজ্জামান, ব্র্যাঞ্চ ম্যানেজার<br>মোবাইলঃ  	০১৭৩০৭৯৩১০৮<br><br>
+<strong>ওয়াক ফর লাইফ।</strong><br>		মো: মামুনহোসেন চৌধুরী	<br>মোবাইলঃ  ০১৮১৯৮২৬৫৫২<br><br>
+<strong>শিকড়	</strong><br>	মো:সুহেল আহম্মেদ	<br>মোবাইলঃ  ০১৭১৪৫১৯৮৯৩<br><br>
+<strong>ডেমিয়েন ফাউন্ডেশন।</strong><br>		প্রবাল কুমার সরকার	<br>মোবাইলঃ  ০১৭১৪৫১৯৮৯৩<br><br>
+<strong>কনসার্ন ইউনিভাসেল।</strong><br>		মো: কামরুল হোসেন	<br>মোবাইলঃ  ০১৭১৫৩৪৪৯০৪<br><br>
+<strong>এফপিএবি</strong><br>		কল্পনা রানী রায়, জেলা কর্মকর্তা	<br>মোবাইলঃ  ০১৭৩৯১৫৮০৮৫<br><br>
+<strong>বাংলাদেশ এসোসিয়েশন ফর সোস্যাল এডভান্সমেন্ট	</strong><br>	মো: আব্দুল লতিফ, ব্যবস্থাপক	<br>মোবাইলঃ  ০১৭১৮৭৪৪৬২৫<br><br>
+<strong>ব্যুরো বাংলাদেশ	</strong><br>	আব্দুল আজিজ, উর্ধ্বতন ব্যবস্থাপক	<br>মোবাইলঃ  ০১৭৩৩২২০৪৯২<br><br>
+<strong>ব্যাংক কলোনী</strong><br>		সাইফুল ইসলাম, প্রিপ ট্রাস্ট	<br>মোবাইলঃ  ০১৭৬৩২৪২১৪৪<br><br>
+<strong>দুঃস্থ মহিলা ও শিশু সমিতি</strong><br>		লাইলী বেগম	<br>মোবাইলঃ  ০১৭৩৯৩০৭৬৬৫<br><br>
+<strong>সৃষ্টি মহিলা উন্নয়ন সংস্থা</strong><br>		সাঈদা বেগম	<br>মোবাইলঃ  ০১৮২১৮৯৩০২৯<br><br>
+<strong>অগ্রগামী দুঃস্থ মহিলা সংস্থা</strong><br>		রাশিদা ফারুকী, সভানেত্রী	<br>মোবাইলঃ  ০১৯১১৩৩০২৫৭<br><br>
+<strong>লেডিস ক্লাব।	</strong><br>	কাজী আব্দুর, ম্যানেজার	<br>মোবাইলঃ  ০১৭১২৯৮০৯৮৬<br><br>
+<strong>সিডি সমাজ কল্যাণ সংস্থা (হিজরা)	</strong><br>	আরিফা ইয়াসমিন, সভানেত্রী	<br>মোবাইলঃ  ০১৭১৭৭১২৮০৪<br><br>
+<strong>চেঞ্জ মেকার</strong><br>		শেখ আবীদ সাইফী	<br>মোবাইলঃ  ০১৯২০১১৫২২২<br><br>
+<strong>ইকো সোস্যাল ডেভেলপমেন্ট অর্গানাইজেশন (ইএসডিও)</strong><br>		হাসান জামাল, ফোকাল পার্সন	<br>মোবাইলঃ  ০১৭১৩১৪৯২৫৩
+	
+
+	
+	
+
+						</p>
+						
+				 	</div>
+				</div>
+				
+		
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
